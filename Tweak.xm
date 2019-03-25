@@ -1,13 +1,17 @@
 %hook XMPPConnectionMain
 
 - (void) sendReadReceiptsForMessagesIfNeeded:(id)arg {
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hey"
-                                                message:@"Ok, Now It's time to delete this Tweak 👻."
-                                               delegate:self
-                                      cancelButtonTitle:@"OK :("
-                                      otherButtonTitles:nil];
-    [alert show];
-    %orig;
+
+    //Alert For Test.
+    // UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hey"
+    //                                             message:@"If you can see this alert, It's time to comment these lines 👻."
+    //                                            delegate:self
+    //                                   cancelButtonTitle:@"OK :("
+    //                                   otherButtonTitles:nil];
+    // [alert show];
+
+    //Call the original hooked method.
+    // %orig;
 }
 
 %end
