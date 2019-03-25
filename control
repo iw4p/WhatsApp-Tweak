@@ -1,0 +1,9 @@
+Package: com.yourcompany.whatsapp
+Name: WhatsApp
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Nima Akbarzade
+Author: Nima Akbarzade
+Section: Tweaks
