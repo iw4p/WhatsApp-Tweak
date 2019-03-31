@@ -1,7 +1,7 @@
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = WhatsApp
-WhatsApp_FILES = Tweak.xm
+TWEAK_NAME = WhatsAppSeen
+WhatsAppSeen_FILES = Tweak.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 

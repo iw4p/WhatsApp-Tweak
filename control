@@ -1,9 +1,10 @@
-Package: com.yourcompany.whatsapp
-Name: WhatsApp
+Package: com.padidar.whatsappseen
+Name: WhatsApp Seen
 Depends: mobilesubstrate
-Version: 0.0.1
+Version: 1.0.0
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Disable Read Receipt WhatsApp!
 Maintainer: Nima Akbarzade
 Author: Nima Akbarzade
 Section: Tweaks
+Depiction: https://iw4p.github.io/repo/depictions/?p=com.padidar.whatsappseen
